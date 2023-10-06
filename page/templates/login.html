@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} 
+{%block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/loginpage.css')}}">
+</head>
+<body>
+    <div ID="loginmain">
+
+        <div id="loginpage">
+            <div id="loginimg">
+                <img src="{{ url_for('static', filename='images/4253793 (1).jpg')}}" alt="#">
+            </div>
+        </div>
+    </div>
+    <form method="POST">
+
+
+
+      <div id="logindata">
+          <h1 class="l1"><b>Log In</b></h1>
+          <input type="text" id="username" placeholder="USERNAME" name="username">
+          <br> <br>
+          <input type="password" id="password" placeholder="PASSWORD" name="password">
+          <br> <br>
+          <button type="submit" class="btn btn-primary">Login</button>
+          <br>
+          <p class="bottom">Dont't have an account?  <a class="bottom" href="{{url_for('auth.sign_up')}}"> Register here</a></p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="loginquote">
+          <h1>"</h1>
+          <p>I'VE SEEN PEOPLE GO FROM THE DARKEST MOMENTS IN THEIR LIVES TO LIVING A HAPPY, FULFILLING LIFE. YOU CAN DO IT TOO. I BELEIVE IN YOU. YOU ARE NOT A BURDEN. YOU WILL NEVER BE A BURDEN.</p>
+          <p>-SOPHIE TURNER</p>
+      </div>
+
+   
+    </form>
+</body>
+</html>
+{{text}}
+{%endblock%}

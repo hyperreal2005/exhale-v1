@@ -1,0 +1,31 @@
+#header{
+    background-color: #30280F;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+    font-size: 34px;
+    margin-top: -20px;
+    padding-top: 0px;
+}
+#quote{
+    font-size: 32px;
+    background-color: rgb(9,88,89,0.5);
+}
+#buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 50px 50px 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.a{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #095859;
+    color: white;
+    border: none;
+}
+.a:hover{
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    color: black;
+}

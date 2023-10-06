@@ -1,0 +1,319 @@
+#exhale{
+    height: 89px;
+    width: 100%;
+    display:block;
+    background-color: #30280F;
+    margin-top: -40px;
+}
+
+#exhale h1{
+    font-size: 60px;
+    color:white;
+    font-family: cursive;
+}
+#header1{
+    text-decoration: none;
+    position: absolute;
+    top:10px;
+    right:20px;
+    font-size: 30px;
+}
+
+.a1, .a2{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #30280F;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-bottom:0px;
+    height: 150px;
+}
+
+footer h1{
+    color: white;
+    position: relative;
+    left:15px;
+    font-size: 110px;
+}
+
+#footer1, #footer2{
+    position:sticky;
+    bottom:0px;
+}
+
+#yuri{
+    width: 100%;
+    height: 700px;
+}
+
+#yuri img{
+    width: 100%;
+    height:700px ;
+}
+
+#yuri button{
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    height: 100px;
+    width: 338px;
+    border-radius: 100px;
+    font-size: 30px;
+}
+
+#yuri p{
+    width: 55%;
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    left:100px;
+    font-family: cursive;
+
+}
+
+#yuri a img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top:650px;
+    left:100px;
+}
+
+#relationforhelp{
+    height: 700px;
+    width: 100%;
+}
+
+#relationforhelp img{
+    width: 100%;
+    height: 100%;
+}
+
+#relationforhelp button{
+    height: 100px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.relbut1{
+    position: absolute;
+    left: 115px;
+    transform: translateY(325px);
+    background-color: rgba(255,250,250,0.8);
+    font-size: 40px;
+    border: none;
+    box-shadow: 2px 2px 25px black;
+}
+.relbut2{
+    position: absolute;
+    left: 625px;
+    transform: translateY(325px);
+    background-color: rgba(255,250,250,0.8);
+    font-size: 40px;
+    border: none;
+    box-shadow: 2px 2px 25px black;
+}
+.relbut3{
+    position: absolute;
+    left: 1125px;
+    transform: translateY(325px);
+    background-color: rgba(255,250,250,0.8);
+    font-size: 40px;
+    border: none;
+    box-shadow: 2px 2px 25px black;
+}
+
+#consultants h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+.card1{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 18px black;
+    display: inline-block;
+    
+}
+
+.desc{
+    padding:0 2px 0 2px;
+}
+.desc h3{
+    font-size: 20px;
+    text-align: center;
+}
+.desc p{
+    font-size: 18px;
+    text-align: center;
+}
+.desc button{
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.card1 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+}
+
+.desc button:hover{
+    background-color: black;
+    color: white;
+}
+
+#meditationclassenroll img{
+    height: 800px;
+    width: 80%;
+    border: 2px solid black;
+    transform: translate(150px,80px);
+}
+
+#trynow img{
+    height:500px;
+    width:40%;
+    display: inline-block;
+    margin: 50px;
+}
+#trynow{
+    background-color: rgba(198, 233, 229, 0.79);
+    transform: translateY(100px);
+    margin-bottom: 150px;
+}
+#trynow button{
+    height: 80px;
+    width: 200px;
+    background-color: white;
+    font-size: 40px;
+    box-shadow: 2px 2px 15px black;
+}
+trynow h1{
+    display: inline-block;
+}
+.tnh1{
+    transform: translateX(30px);
+    font-size: 40px;
+}
+.tnh2{
+    transform: translate(850px, -70px);
+    font-size: 40px;
+}
+#tn1{
+    border-radius: 15px;
+    transform: translate(200px, -100px);
+    margin: 50px;
+}
+#tn2{
+    border-radius: 15px;
+    transform: translate(650px, -100px);
+    margin: 50px;
+}
+#but{
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+.a{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #095859;
+    color: white;
+    border: none;
+    width: 400px;
+    height: 100px;
+}
+.a:hover{
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    color: black;
+}
+#diseasesinfo h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+#wecare{
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+    background: rgba(55, 113, 200, 0.38);
+    margin-top: 20px;
+}
+
+#wecare h1{
+    font-size: 50px;
+    font-family: Handlee;
+    text-align: center;
+}
+#wecare h2{
+    font-size: 30px;
+    text-align: center;
+    width: 20%;
+    margin-left: 600px;
+    
+}
+#wecare p{
+    font-family: Handlee;
+    font-size: 30px;
+    width: 30%;
+    margin-left: 50px;
+}
+#helpinghand{
+    height:900px;
+    width: 100%;
+}
+
+.helpdesign{
+    width:60%;
+    height: 80%;
+    margin-left: -150px;
+    border-radius: 100%;
+    background-color: rgba(55, 113, 200, 0.38);
+    transform: translatey(-500px);
+}
+#helpinghand p{
+    font-size: 25px;
+    color: #0E176E;
+    width: 50%;
+    margin-left: 50px;
+}
+#helpinghand h1{
+    font-size: 70px;
+    color: #0E176E;
+    text-align: center;
+    
+}
+#helpinghand button{
+    height: 180px;
+    width: 462px;
+    background: #0E176E;
+    color: white;
+    font-size: 60px;
+    transform: translate(400px,350px);
+    border-radius: 45px;
+
+}
+#helpinghand img{
+    height: 600px;
+    width: 600px;
+    border-radius: 100%;
+    margin-right: -30px;
+    transform: translate(450px,15px);
+}
+    
